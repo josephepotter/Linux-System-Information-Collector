@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 #Title: System Information Collector
 #Author: Joseph Potter
 #Last Edited: 10/23/2017
@@ -16,9 +16,9 @@ printf "\n"
 printf "${green}FILES IN DIRECTORIES:\n\n${normal}"
 #shows the counts of files for the home directory and the root directory
 printf "Home: "
-ls ~ | wc -l 
+ls ~ | wc -l
 printf "Root: "
-ls / | wc -l 
+ls / | wc -l
 printf "\n"
 printf "${green}SYSTEM USAGE:\n\n${normal}"
 #shows usage of RAM and Hard Drive
